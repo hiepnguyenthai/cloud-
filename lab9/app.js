@@ -14,7 +14,7 @@ var app = express();
 //cấu hình mongoose (database)
 var mongoose = require("mongoose");
 var db =
-  "mongodb+srv://longndt:xdHB48B3Fv*%40TPa@cluster0.i5kings.mongodb.net/greenwich";
+  "mongodb://localhost:27017/greenwich";
 mongoose.connect(db, { useNewUrlParser: true });
 
 //cấu hình body-parser (form input)
